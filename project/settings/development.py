@@ -8,3 +8,5 @@ STATICFILES_DIRS = [
 ]
 
 SITE_APPS += ['tweet']
+
+INSTALLED_APPS += SITE_APPS

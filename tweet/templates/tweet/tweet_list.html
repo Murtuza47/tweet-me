@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block tweet%}
+{% for tweet in tweets %}
+<div class="col-lg-4">
+{% include 'tweet_format.html' with tweet=tweet.content%}
+</div>
+{% endfor %}
+{% endblock %}
